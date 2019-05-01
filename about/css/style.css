@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu a {
+  float: right;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #333;
+  color: pink;
+  border: 0.1px pink solid;
+
+}
+
+.mabout {
+  background-image: url(../image/mabout.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover-width;
+  padding: 10vh;
+}
+
+.hihi {
+  margin-top: 30px;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slideshow{
+  position: relative;
+  height: 79.3vh;
+  width: 100rem;
+  border: 0.3px pink solid;
+  margin: 50px auto;
+}
+
+.slide1{
+  background-image: url(../image/28.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 1s;
+}
+
+.slide2{
+  background-image: url(../image/27.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 2s;
+}
+
+.slide3{
+  background-image: url(../image/24.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 3s;
+}
+
+.slide4{
+  background-image: url(../image/22.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 4s;
+}
+
+.slide5{
+  background-image: url(../image/29.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 5s;
+}
+
+.slide6{
+  background-image: url(../image/32.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 6s;
+}
+
+.slide7{
+  background-image: url(../image/36.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 7s;
+}
+
+.slide8{
+  background-image: url(../image/37.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: disolveRound 9s linear infinite 8s;
+}
+
+
+@keyframes disolveRound {
+  0%{
+    opacity: 0;
+  }
+  5%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+}
+
+.jonaxx {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+  font-family: SignPainter;
+  font-size: 55px;
+}
+
+.info {
+  height: 65vh;
+  border: 0.3px pink solid;
+  background-color: #ffe6ee;
+}
+
+p {
+  text-indent: 50px;
+  font-size: 25px;
+}
+
+i {
+  color: #fb7998;
+}
+
+strong {
+  color: #fb7998;
+}

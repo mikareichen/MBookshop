@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu a {
+  float: right;
+  display: grid;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #333;
+  color: pink;
+  border: 0.1px pink solid;
+
+}
+
+.content{
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.book1{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.book2{
+  border: 2px black solid;
+  background-color: white;
+}
+
+.book3{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.contents{
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.book4{
+  border: 2px black solid;
+  background-color: white;
+}
+
+.book5{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.book6{
+  border: 2px black solid;
+  background-color: white;
+}
+
+.contentszxc{
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.book7{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.book8{
+  border: 2px black solid;
+  background-color: white;
+}
+
+.book9{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.contenttt{
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.book10{
+  border: 2px black solid;
+  background-color: white;
+}
+
+.book11{
+  border: 2px black solid;
+  background-color: pink;
+}
+
+.book12{
+  border: 2px black solid;
+  background-color: white;
+}
+
+
+.mbooks {
+  background-image: url(../image/mbooks.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover-width;
+  padding: 10vh;
+}
+
+.hehe {
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: SignPainter;
+  color: #f67280;
+  font-size: 45px;
+}
+

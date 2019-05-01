@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mika{
+	background-image: url(../image/M.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover-width;
+	padding: 10vh;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu a {
+  float: right;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #333;
+  color: pink;
+  border: 0.1px pink solid;
+
+}
+
+.main{
+	margin-top: 30px;
+}
+
+.slide {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.slideshow{
+	position: relative;
+	height: 79.3vh;
+	width: 100rem;
+	border: 0.3px pink solid;
+	margin: 50px auto;
+}
+
+.slide1{
+	background-image: url(../image/18.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 4s linear infinite 1s;
+}
+
+.slide2{
+	background-image: url(../image/16.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 4s linear infinite 2s;
+}
+
+.slide3{
+	background-image: url(../image/17.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 4s linear infinite 3s;
+}
+
+.slide4{
+	background-image: url(../image/19.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: disolveRound 4s linear infinite 4s;
+}
+
+@keyframes disolveRound {
+	0%{
+		opacity: 0;
+	}
+	5%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 1;
+	}
+	30%{
+		opacity: 0;
+	}
+}
+
+.top {
+	padding: 15px;
+}
+
+h1 {
+	text-align: center;
+	color: pink;
+	font-family: SignPainter;
+	font-size: 75px;
+}
+
+.toptop {
+	height: 65vh;
+	display: grid;
+	grid-gap: 0.5px;
+	grid-template-columns: repeat(3, 1fr); 
+	border: 0.3px pink solid;
+}
+
+.top1{
+	background-image: url(../image/13.jpg);
+	background-position: center;
+}
+
+.top2{
+	background-image: url(../image/2.jpg);
+	background-position: center;
+}
+.top2:hover {
+	background-image: url(../image/10.jpg);
+	background-position: center;
+	transition: all .3s ease-out;
+}
+
+
+
+.top3{
+	background-image: url(../image/7.jpg);
+	background-position: center;
+}
+	
+.footer{
+	height: 12vh;
+	text-align: center;
+	color: #ffb6c1;
+	font-size: 20px;
+}
